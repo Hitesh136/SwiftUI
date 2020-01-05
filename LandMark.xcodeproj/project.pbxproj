@@ -10,7 +10,7 @@
 		FFEA6CDD23C1FCE400CD15E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEA6CDC23C1FCE400CD15E8 /* AppDelegate.swift */; };
 		FFEA6CDF23C1FCE400CD15E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEA6CDE23C1FCE400CD15E8 /* SceneDelegate.swift */; };
 		FFEA6CE223C1FCE400CD15E8 /* LandMark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFEA6CE023C1FCE400CD15E8 /* LandMark.xcdatamodeld */; };
-		FFEA6CE423C1FCE400CD15E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEA6CE323C1FCE400CD15E8 /* ContentView.swift */; };
+		FFEA6CE423C1FCE400CD15E8 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEA6CE323C1FCE400CD15E8 /* LandmarkDetail.swift */; };
 		FFEA6CE623C1FCE500CD15E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFEA6CE523C1FCE400CD15E8 /* Assets.xcassets */; };
 		FFEA6CE923C1FCE500CD15E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFEA6CE823C1FCE500CD15E8 /* Preview Assets.xcassets */; };
 		FFEA6CEC23C1FCE500CD15E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEA6CEA23C1FCE500CD15E8 /* LaunchScreen.storyboard */; };
@@ -59,7 +59,7 @@
 		FFEA6CDC23C1FCE400CD15E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFEA6CDE23C1FCE400CD15E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FFEA6CE123C1FCE400CD15E8 /* LandMark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LandMark.xcdatamodel; sourceTree = "<group>"; };
-		FFEA6CE323C1FCE400CD15E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFEA6CE323C1FCE400CD15E8 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		FFEA6CE523C1FCE400CD15E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFEA6CE823C1FCE500CD15E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FFEA6CEB23C1FCE500CD15E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 				FFEA6D0F23C1FD0A00CD15E8 /* Resources */,
 				FFEA6D2F23C1FD1800CD15E8 /* CustomViews */,
 				FFEA6CDC23C1FCE400CD15E8 /* AppDelegate.swift */,
-				FFEA6CE323C1FCE400CD15E8 /* ContentView.swift */,
+				FFEA6CE323C1FCE400CD15E8 /* LandmarkDetail.swift */,
 				FFEA6CDE23C1FCE400CD15E8 /* SceneDelegate.swift */,
 				FFEA6CE523C1FCE400CD15E8 /* Assets.xcassets */,
 				FFEA6CEA23C1FCE500CD15E8 /* LaunchScreen.storyboard */,
@@ -369,7 +369,7 @@
 				FFEA6CDD23C1FCE400CD15E8 /* AppDelegate.swift in Sources */,
 				FFEA6D2D23C1FD0A00CD15E8 /* Data.swift in Sources */,
 				FFEA6CDF23C1FCE400CD15E8 /* SceneDelegate.swift in Sources */,
-				FFEA6CE423C1FCE400CD15E8 /* ContentView.swift in Sources */,
+				FFEA6CE423C1FCE400CD15E8 /* LandmarkDetail.swift in Sources */,
 				FFEA6CE223C1FCE400CD15E8 /* LandMark.xcdatamodeld in Sources */,
 				FFEA6D2E23C1FD0A00CD15E8 /* Landmark.swift in Sources */,
 				FFEA6D3523C1FD1800CD15E8 /* LandmarkRow.swift in Sources */,
