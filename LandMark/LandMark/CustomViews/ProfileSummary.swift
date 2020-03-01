@@ -21,19 +21,9 @@ struct ProfileSummary: View {
     var body: some View {
         
         List {
-            HStack {
-                Text(profile.username)
-                    .font(.title)
-                    .bold()
-                
-                Spacer()
-                Button(action: {
-                    self.showEditProfile = true
-                }) {
-                    Text("Edit")
-                        .foregroundColor(.blue)
-                }
-            }
+            Text(profile.username)
+                .font(.title)
+                .bold() 
             
             Text("Notifications: \(self.profile.prefersNotifications ? "On" : "Off")")
             Text("Seasonal photos: \(self.profile.seasonalPhoto.rawValue)")

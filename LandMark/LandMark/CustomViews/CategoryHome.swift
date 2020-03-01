@@ -14,6 +14,8 @@ struct CategoryHome: View {
         Dictionary(grouping: landmarkData, by: { $0.category.rawValue })
     }
     @State var showingProfile = false
+    @EnvironmentObject var userData: UserData
+    
     var profileButton: some View {
         Button(action: { self.showingProfile.toggle() }) {
             Image(systemName: "person.crop.circle")
@@ -43,7 +45,7 @@ struct CategoryHome: View {
             .navigationBarTitle(Text("Featured"))
             .navigationBarItems(trailing: profileButton)
             .sheet(isPresented: $showingProfile) {
-                ProfileSummary(profile: Profile.default)
+                ProfileHost().environmentObject(self.userData)
             }
         }
     }
