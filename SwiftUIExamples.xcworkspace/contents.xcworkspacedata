@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../AlternateAppIcon/AlternateAppIcon.xcodeproj">
+      location = "group:AlternateAppIcons/AlternateAppIcons.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Movie/Movie.xcodeproj">
