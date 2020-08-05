@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AnimateCheckbox/AnimateCheckbox.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:StopWatch/StopWatch.xcodeproj">
    </FileRef>
    <FileRef
