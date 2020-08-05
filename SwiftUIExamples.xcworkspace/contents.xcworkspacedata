@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:StopWatch/StopWatch.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:AlternateAppIcons/AlternateAppIcons.xcodeproj">
    </FileRef>
    <FileRef

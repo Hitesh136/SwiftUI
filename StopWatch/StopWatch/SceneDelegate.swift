@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  AlternateAppIcons
+//  StopWatch
 //
-//  Created by Hitesh Agarwal on 01/03/20.
+//  Created by Hitesh Agarwal on 02/04/20.
 //  Copyright © 2020 Hitesh Agarwal. All rights reserved.
 //
 
@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView().environmentObject(IconNames())
+        let contentView = ContentView()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
