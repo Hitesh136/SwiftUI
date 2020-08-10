@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:HUDs/HUDs.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:AnimateCheckbox/AnimateCheckbox.xcodeproj">
    </FileRef>
    <FileRef
